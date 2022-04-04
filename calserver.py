@@ -2,8 +2,8 @@ import socket		 	 # Import socket module
 
 s = socket.socket() 	  		 # Create a socket object
 
-host = socket.gethostname()                    # Get local machine name
-port = int(sys.argv[1])
+host = 192.168.100.4                    # Get local machine name
+port = 12000
 
 
 s.bind((host, port)) 			 # Bind to the port
