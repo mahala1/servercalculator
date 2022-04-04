@@ -1,5 +1,4 @@
 import socket		 	 # Import socket module
-import sys
 
 s = socket.socket() 	  		 # Create a socket object
 
